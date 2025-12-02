@@ -1,0 +1,84 @@
+T63DC 000:019.697   SEGGER J-Link V7.22b Log File
+T63DC 000:019.941   DLL Compiled: Jun 17 2021 17:22:49
+T63DC 000:019.966   Logging started @ 2025-04-14 06:56
+T63DC 000:019.990 - 20.001ms
+T63DC 000:020.023 JLINK_SetWarnOutHandler(...)
+T63DC 000:020.050 - 0.038ms
+T63DC 000:020.076 JLINK_OpenEx(...)
+T63DC 000:028.018   Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+T63DC 000:029.367   Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+T63DC 000:029.782   Decompressing FW timestamp took 297 us
+T63DC 000:043.495   Hardware: V9.70
+T63DC 000:043.563   S/N: 69736479
+T63DC 000:043.605   OEM: SEGGER
+T63DC 000:043.638   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T63DC 000:067.459   TELNET listener socket opened on port 19021
+T63DC 000:067.720   WEBSRV Starting webserver
+T63DC 000:067.942   WEBSRV Failed to put socket into listener state (port 19080)
+T63DC 000:068.001   WEBSRV Failed to put socket into listener state (port 19081)
+T63DC 000:068.277   WEBSRV Webserver running on local port 19082
+T63DC 000:068.327 - 48.266ms returns "O.K."
+T63DC 000:068.399 JLINK_GetEmuCaps()
+T63DC 000:068.431 - 0.047ms returns 0xB9FF7BBF
+T63DC 000:068.486 JLINK_TIF_GetAvailable(...)
+T63DC 000:070.342 - 1.911ms
+T63DC 000:070.441 JLINK_SetErrorOutHandler(...)
+T63DC 000:070.472 - 0.045ms
+T63DC 000:070.525 JLINK_ExecCommand("ProjectFile = "D:\LKS\系类实验\07 dome板验证\已完成\08系列\LKS081_顶板V2.0_底板V5.0\LKS08x_FOC_SensorLessV4.28.2\JLinkSettings.ini"", ...). 
+T63DC 000:132.650   Device "CORTEX-M0" selected.
+T63DC 000:133.656 - 63.154ms returns 0x00
+T63DC 000:138.592 JLINK_ExecCommand("Device = LKS32MC081C8T8", ...). 
+T63DC 000:148.024   Device "CORTEX-M0" selected.
+T63DC 000:148.928 - 10.298ms returns 0x00
+T63DC 000:148.981 JLINK_GetHardwareVersion()
+T63DC 000:149.001 - 0.030ms returns 97000
+T63DC 000:149.023 JLINK_GetDLLVersion()
+T63DC 000:149.042 - 0.028ms returns 72202
+T63DC 000:149.062 JLINK_GetOEMString(...)
+T63DC 000:149.083 JLINK_GetFirmwareString(...)
+T63DC 000:149.113 - 0.039ms
+T63DC 000:163.968 JLINK_GetDLLVersion()
+T63DC 000:164.027 - 0.069ms returns 72202
+T63DC 000:164.051 JLINK_GetCompileDateTime()
+T63DC 000:164.070 - 0.029ms
+T63DC 000:167.411 JLINK_GetFirmwareString(...)
+T63DC 000:167.449 - 0.047ms
+T63DC 000:170.692 JLINK_GetHardwareVersion()
+T63DC 000:170.723 - 0.041ms returns 97000
+T63DC 000:179.556 JLINK_GetSN()
+T63DC 000:179.614 - 0.067ms returns 69736479
+T63DC 000:183.713 JLINK_GetOEMString(...)
+T63DC 000:196.522 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T63DC 000:203.271 - 6.810ms returns 0x00
+T63DC 000:203.355 JLINK_HasError()
+T63DC 000:203.390 JLINK_SetSpeed(5000)
+T63DC 000:274.146 - 70.801ms
+T63DC 000:274.231 JLINK_GetId()
+T63DC 000:391.414   Found SW-DP with ID 0x0BB11477
+T63DC 000:394.772   Old FW that does not support reading DPIDR via DAP jobs
+T63DC 000:398.870   DPv0 detected
+T63DC 000:407.946   Scanning AP map to find all available APs
+T63DC 000:418.369   AP[1]: Stopped AP scan as end of AP map has been reached
+T63DC 000:426.725   AP[0]: AHB-AP (IDR: 0x04770021)
+T63DC 000:439.457   Iterating through AP map to find AHB-AP to use
+T63DC 000:450.568   AP[0]: Core found
+T63DC 000:458.563   AP[0]: AHB-AP ROM base: 0xE00FF000
+T63DC 000:475.464   CPUID register: 0x410CC200. Implementer code: 0x41 (ARM)
+T63DC 000:483.365   Found Cortex-M0 r0p0, Little endian.
+T63DC 000:585.114   -- Max. mem block: 0x00003398
+T63DC 004:387.243   
+  ***** Error: 
+T63DC 004:387.325   Communication timed out: Requested 12 bytes, received 0 bytes !
+T63DC 004:387.577   
+  ***** Error: 
+T63DC 004:387.622   Failed to register debugger connection at J-Link because J-Link is low on memory.
+T63DC 004:480.571   
+  ***** Error: 
+T63DC 004:480.614   Could not read hardware status!
+T63DC 004:480.632 - 4206.407ms returns 0x00000000
+T3060 004:480.754   
+  ***** Error: Connection to emulator lost!
+T63DC 012:430.399 JLINK_Close()
+T63DC 012:433.806 - 3.445ms
+T63DC 012:433.854   
+T63DC 012:433.870   Closed
