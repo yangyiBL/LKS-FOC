@@ -3,13 +3,13 @@
         {
             "name": "Linko 08x Project",
             "includePath": [
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\Include",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\LKS32MC08x_Periph_Driver\\Include",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\Kernal_Source",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\LKS_VIEWER",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\SEGGER_RTT",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\AppFunction",
-                "d:\\LKS\\02 Dome电机\\081\\程序\\WU\\LKS32MC08x_SDK无感FOC培训大纲与例程V2.9\\LKS08x_FOC_SensorLessV4.28.2\\LKS32MC08x_Periph_Driver\\Source"
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\Include",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\LKS32MC08x_Periph_Driver\\Include",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\Kernal_Source",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\LKS_VIEWER",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\SEGGER_RTT",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\AppFunction",
+                "d:\\yangyi\\LKS-FOC\\LKS08x_FOC_SensorLessV4.28.2\\LKS32MC08x_Periph_Driver\\Source"
             ],
             "defines": [
                 "__CC_ARM",
