@@ -24,6 +24,14 @@
 /* Includes ------------------------------------------------------------------*/
 #include "basic.h"
 #include "MC_type.h"
+/* Fallback for IntelliSense: TRUE/FALSE are normally defined in the device pack basic.h.
+   Values are kept identical so the Keil build output stays unchanged. */
+#ifndef TRUE
+#define TRUE    (1)
+#endif
+#ifndef FALSE
+#define FALSE   (0)
+#endif
 
 /* Exported types ------------------------------------------------------------*/
 /*! Macro converting a signed fractional [-1,1) number into a fixed point 16-bit

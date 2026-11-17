@@ -13,6 +13,8 @@
             ],
             "defines": [
                 "__CC_ARM",
+                "TRUE=1",
+                "FALSE=0",
                 "__arm__",
                 "__align(x)=",
                 "__ALIGNOF__(x)=",
